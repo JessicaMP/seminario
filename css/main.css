@@ -18,6 +18,10 @@ li a {
   text-decoration: none;
 }
 
+li:hover {
+  color: #fc0;
+}
+
 ul li {
   display: inline;
   list-style: none;
@@ -43,4 +47,47 @@ nav {
 
 .box-header{
   display: inline-block;
+}
+
+.logo-square {
+  width: 100px;
+}
+
+section {
+  text-align: center;
+}
+
+div {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 2px;
+  width: 33%;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-size: 40px;
+  transition: 5s;
+}
+
+[class^="icon-"]:hover, [class*=" icon-"]:hover {
+  color: #fc0;
+}
+
+footer {
+  background-color: black;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  background-color: #fa3;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+
+.btn:hover {
+  background-color: #653;
 }
